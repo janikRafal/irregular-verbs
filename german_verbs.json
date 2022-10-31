@@ -1,0 +1,17 @@
+[
+  {
+    "PL": "piec",
+    "ENG": "bake",
+    "verbs": ["backen", "backte", "gebacken"]
+  },
+  {
+    "PL": "rozkazywać",
+    "ENG": "command",
+    "verbs": ["befehlen", "befahl", "befohlen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "begin",
+    "verbs": ["beginnen", "begann", "begonnen"]
+  }
+]
