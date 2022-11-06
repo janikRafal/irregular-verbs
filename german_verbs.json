@@ -2,16 +2,666 @@
   {
     "PL": "piec",
     "ENG": "bake",
-    "verbs": ["backen", "backte", "gebacken"]
+    "verbs": ["backen", "backt", "backte", "gebacken"]
   },
   {
     "PL": "rozkazywać",
-    "ENG": "command",
-    "verbs": ["befehlen", "befahl", "befohlen"]
+    "ENG": "command, order",
+    "verbs": ["befehlen", "befiehlt", "befahl", "befohlen"]
   },
   {
     "PL": "zaczynać",
     "ENG": "begin",
-    "verbs": ["beginnen", "begann", "begonnen"]
+    "verbs": ["beginnen", "beginnt", "begann", "begonnen"]
+  },
+  {
+    "PL": "gryźć",
+    "ENG": "bite",
+    "verbs": ["beißen", "beißt", "biss", "gebissen"]
+  },
+  {
+    "PL": "oszukiwać",
+    "ENG": "deceive, cheat",
+    "verbs": ["betrügen", "betrügt", "betrog", "betrogen"]
+  },
+  {
+    "PL": "nakłaniać",
+    "ENG": "move",
+    "verbs": ["bewegen", "bewegt", "bewog", "bewogen"]
+  },
+  {
+    "PL": "giąć",
+    "ENG": "bend, turn",
+    "verbs": ["biegen", "biegt", "bog", "gebogen"]
+  },
+  {
+    "PL": "oferować",
+    "ENG": "offer, bid",
+    "verbs": ["bieten", "bietet", "bot", "geboten"]
+  },
+  {
+    "PL": "wiązać",
+    "ENG": "tie",
+    "verbs": ["binden", "bindet", "band", "gebunden"]
+  },
+  {
+    "PL": "prosić, żądać",
+    "ENG": "request",
+    "verbs": ["bitten", "bittet", "bat", "gebeten"]
+  },
+  {
+    "PL": "dmuchać",
+    "ENG": "blow, sound",
+    "verbs": ["blasen", "bläst", "blies", "geblasen"]
+  },
+  {
+    "PL": "pozostawać",
+    "ENG": "stay, remain",
+    "verbs": ["bleiben", "bleibt", "blieb", "geblieben"]
+  },
+  {
+    "PL": "smażyć, piec",
+    "ENG": "roast",
+    "verbs": ["braten", "brät", "briet", "gebraten"]
+  },
+  {
+    "PL": "łamać",
+    "ENG": "break",
+    "verbs": ["brechen", "bricht", "brach", "gebrochen"]
+  },
+  {
+    "PL": "płonąć",
+    "ENG": "burn",
+    "verbs": ["brennen", "brennt", "brannte", "gebrannt"]
+  },
+  {
+    "PL": "przynosić",
+    "ENG": "bring, take to",
+    "verbs": ["bringen", "bringt", "brachte", "gebracht"]
+  },
+  {
+    "PL": "myśleć",
+    "ENG": "think",
+    "verbs": ["denken", "denkt", "dachte", "gedacht"]
+  },
+  {
+    "PL": "móc, mieć pozwolenie",
+    "ENG": "be allowed to",
+    "verbs": ["dürfen", "darf", "durfte", "gedurft"]
+  },
+  {
+    "PL": "polecać",
+    "ENG": "recommend",
+    "verbs": ["empfehlen", "empfiehlt", "empfahl", "empfohlen"]
+  },
+  {
+    "PL": "wystraszyć się",
+    "ENG": "be frightened",
+    "verbs": ["erschrecken", "erschrickt", "erschrak", "erschrocken"]
+  },
+  {
+    "PL": "jeść",
+    "ENG": "eat",
+    "verbs": ["essen", "isst", "aß", "gegessen"]
+  },
+  {
+    "PL": "jechać, zawozić",
+    "ENG": "go, drive",
+    "verbs": ["fahren", "fährt", "fuhr", "gefahren"]
+  },
+  {
+    "PL": "upadać",
+    "ENG": "fall",
+    "verbs": ["fallen", "fällt", "fiel", "gefallen"]
+  },
+  {
+    "PL": "łapać",
+    "ENG": "catch",
+    "verbs": ["fangen", "fängt", "fing", "gefangen"]
+  },
+  {
+    "PL": "znajdować",
+    "ENG": "find",
+    "verbs": ["finden", "findet", "fand", "gefunden"]
+  },
+  {
+    "PL": "latać",
+    "ENG": "fly",
+    "verbs": ["fliegen", "fliegt", "flog", "geflogen"]
+  },
+  {
+    "PL": "uciekać",
+    "ENG": "flee, run away",
+    "verbs": ["fliehen", "flieht", "floh", "geflohen"]
+  },
+  {
+    "PL": "płynąć",
+    "ENG": "flow",
+    "verbs": ["fließen", "fließt", "floss", "geflossen"]
+  },
+  {
+    "PL": "żreć",
+    "ENG": "eat (done by animals) ",
+    "verbs": ["fressen", "frisst", "fraß", "gefressen"]
+  },
+  {
+    "PL": "marznąć",
+    "ENG": "freeze, be cold",
+    "verbs": ["frieren", "friert", "fror", "gefroren"]
+  },
+  {
+    "PL": "dawać",
+    "ENG": "give",
+    "verbs": ["geben", "gibt", "gab", "gegeben"]
+  },
+  {
+    "PL": "prosperować",
+    "ENG": "flourish, prosper",
+    "verbs": ["gedeihen", "gedeiht", "gedieh", "gediehen"]
+  },
+  {
+    "PL": "iść",
+    "ENG": "go, walk",
+    "verbs": ["gehen", "geht", "ging", "gegangen"]
+  },
+  {
+    "PL": "udać się",
+    "ENG": "succeed",
+    "verbs": ["gelingen", "gelingt", "gelang", "gelungen"]
+  },
+  {
+    "PL": "obowiązywać",
+    "ENG": "be valid, be of worth",
+    "verbs": ["gelten", "gilt", "galt", "gegolten"]
+  },
+  {
+    "PL": "rozkoszywać się",
+    "ENG": "enjoy",
+    "verbs": ["genießen", "genießt", "genoss", "genossen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "fall into, get into",
+    "verbs": ["geraten", "gerät", "geriet", "geraten"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "happen",
+    "verbs": ["geschehen", "geschieht", "geschah", "geschehen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "win, gain ",
+    "verbs": ["gewinnen", "gewinnt", "gewann", "gewonnen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "pour",
+    "verbs": ["gießen", "gießt", "goss", "gegossen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "resemble",
+    "verbs": ["gleichen", "gleicht", "glich", "geglichen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "glide, slide",
+    "verbs": ["gleiten", "gleitet", "glitt", "geglitten"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "dig",
+    "verbs": ["graben", "gräbt", "grub", "gegraben"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "grasp, grab, hold of",
+    "verbs": ["greifen", "greift", "griff", "gegriffen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "have",
+    "verbs": ["haben", "hat", "hatte", "gehabt"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "hold",
+    "verbs": ["halten", "hält", "hielt", "gehalten"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "be hanging",
+    "verbs": ["hängen", "hängt", "hing", "gehangen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "raise, lift",
+    "verbs": ["heben", "hebt", "hob", "gehoben"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "be called, bid",
+    "verbs": ["heißen", "heißt", "hieß", "geheißen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "help",
+    "verbs": ["helfen", "hilft", "half", "geholfen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "know (a place, person, situation etc.)",
+    "verbs": ["kennen", "kennt", "kannte", "gekannt"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "sound",
+    "verbs": ["klingen", "klingt", "klang", "geklungen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "come",
+    "verbs": ["kommen", "kommt", "kam", "gekommen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "can, be able to",
+    "verbs": ["können", "kann", "konnte", "gekonnt"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "crawl",
+    "verbs": ["kriechen", "kriecht", "kroch", "gekrochen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "load, invite",
+    "verbs": ["laden", "lädt", "lud", "geladen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "let, leave (something behind)",
+    "verbs": ["lassen", "lässt", "ließ", "gelassen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "run",
+    "verbs": ["laufen", "läuft", "lief", "gelaufen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "suffer",
+    "verbs": ["leiden", "leidet", "litt", "gelitten"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "lend (out)",
+    "verbs": ["leihen", "leiht", "lieh", "geliehen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "read",
+    "verbs": ["lesen", "liest", "las", "gelesen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "lie (in a place)",
+    "verbs": ["liegen", "liegt", "lag", "gelegen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "tell lies",
+    "verbs": ["lügen", "lügt", "log", "gelogen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "measure",
+    "verbs": ["messen", "misst", "maß", "gemessen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "like",
+    "verbs": ["mögen", "mag", "mochte", "gemocht"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "must, have to",
+    "verbs": ["müssen", "muss", "musste", "gemusst"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "take",
+    "verbs": ["nehmen", "nimmt", "nahm", "genommen"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "name, call",
+    "verbs": ["nennen", "nennt", "nannte", "genannt"]
+  },
+  {
+    "PL": "zaczynać",
+    "ENG": "whistle, pipe",
+    "verbs": ["pfeifen", "pfeift", "pfiff", "gepfiffen"]
+  },
+  {
+    "PL": "doradzać, zgadnąć",
+    "ENG": "advise, guess",
+    "verbs": ["raten", "rät", "riet", "geraten"]
+  },
+  {
+    "PL": "pocierać",
+    "ENG": "rub",
+    "verbs": ["reiben", "reibt", "rieb", "gerieben"]
+  },
+  {
+    "PL": "rozrywać",
+    "ENG": "tear, rip",
+    "verbs": ["reißen", "reißt", "riss", "gerissen"]
+  },
+  {
+    "PL": "jeździć konno",
+    "ENG": "ride (on horse)",
+    "verbs": ["reiten", "reitet", "ritt", "geritten"]
+  },
+  {
+    "PL": "biec, pędzić",
+    "ENG": "run",
+    "verbs": ["rennen", "rennt", "rannte", "gerannt"]
+  },
+  {
+    "PL": "pachnieć",
+    "ENG": "smell",
+    "verbs": ["riechen", "riecht", "roch", "gerochen"]
+  },
+  {
+    "PL": "wołać",
+    "ENG": "call, shout",
+    "verbs": ["rufen", "ruft", "rief", "gerufen"]
+  },
+  {
+    "PL": "oddzielać, rozdzielać",
+    "ENG": "separate",
+    "verbs": ["scheiden", "scheidet", "schied", "geschieden"]
+  },
+  {
+    "PL": "świecić",
+    "ENG": "seem, shine",
+    "verbs": ["scheinen", "scheint", "schien", "geschienen"]
+  },
+  {
+    "PL": "przesuwać",
+    "ENG": "shove, push",
+    "verbs": ["schieben", "schiebt", "schob", "geschoben"]
+  },
+  {
+    "PL": "strzelać",
+    "ENG": "shoot",
+    "verbs": ["schießen", "schießt", "schoss", "geschossen"]
+  },
+  {
+    "PL": "spać",
+    "ENG": "sleep",
+    "verbs": ["schlafen", "schläft", "schlief", "geschlafen"]
+  },
+  {
+    "PL": "bić",
+    "ENG": "hit, beat, strike",
+    "verbs": ["schlagen", "schlägt", "schlug", "geschlagen"]
+  },
+  {
+    "PL": "zamykać",
+    "ENG": "shut, conclude, finish",
+    "verbs": ["schließen", "schließt", "schloss", "geschlossen"]
+  },
+  {
+    "PL": "kroić, ciąć",
+    "ENG": "cut",
+    "verbs": ["schneiden", "schneidet", "schnitt", "geschnitten"]
+  },
+  {
+    "PL": "pisać",
+    "ENG": "write",
+    "verbs": ["schreiben", "schreibt", "schrieb", "geschrieben"]
+  },
+  {
+    "PL": "krzyczeć",
+    "ENG": "shout, yell",
+    "verbs": ["schreien", "schreit", "schrie", "geschrien"]
+  },
+  {
+    "PL": "milczeć",
+    "ENG": "be silent",
+    "verbs": ["schweigen", "schweigt", "schwieg", "geschwiegen"]
+  },
+  {
+    "PL": "puchnąć",
+    "ENG": "swell",
+    "verbs": ["schwellen", "schwillt", "schwoll", "geschwollen"]
+  },
+  {
+    "PL": "pływać",
+    "ENG": "swim",
+    "verbs": ["schwimmen", "schwimmt", "schwamm", "geschwommen"]
+  },
+  {
+    "PL": "bujać się",
+    "ENG": "swing",
+    "verbs": ["schwingen", "schwingt", "schwang", "geschwungen"]
+  },
+  {
+    "PL": "przysięgać",
+    "ENG": "swear (on oath)",
+    "verbs": ["schwören", "schwört", "schwur", "geschworen"]
+  },
+  {
+    "PL": "widzieć",
+    "ENG": "see",
+    "verbs": ["sehen", "sieht", "sah", "gesehen"]
+  },
+  {
+    "PL": "być",
+    "ENG": "be",
+    "verbs": ["sein", "ist", "war", "gewesen"]
+  },
+  {
+    "PL": "wysyłać",
+    "ENG": "send",
+    "verbs": ["senden", "sendet", "sandte", "gesandt"]
+  },
+  {
+    "PL": "śpiewać",
+    "ENG": "sing",
+    "verbs": ["singen", "singt", "sang", "gesungen"]
+  },
+  {
+    "PL": "tonąć",
+    "ENG": "sink",
+    "verbs": ["sinken", "sinkt", "sank", "gesunken"]
+  },
+  {
+    "PL": "siedzieć",
+    "ENG": "be sitting, sit",
+    "verbs": ["sitzen", "sitzt", "saß", "gesessen"]
+  },
+  {
+    "PL": "mieć powinność",
+    "ENG": "be obliged to, be supposed to",
+    "verbs": ["sollen", "soll", "sollte", "gesollt"]
+  },
+  {
+    "PL": "mówić, rozmawiać",
+    "ENG": "speak",
+    "verbs": ["sprechen", "spricht", "sprach", "gesprochen"]
+  },
+  {
+    "PL": "skakać",
+    "ENG": "jump, spring",
+    "verbs": ["springen", "springt", "sprang", "gesprungen"]
+  },
+  {
+    "PL": "kłuć",
+    "ENG": "prick, sting",
+    "verbs": ["stechen", "sticht", "stach", "gestochen"]
+  },
+  {
+    "PL": "stać",
+    "ENG": "stand",
+    "verbs": ["stehen", "steht", "stand", "gestanden"]
+  },
+  {
+    "PL": "kraść",
+    "ENG": "steal",
+    "verbs": ["stehlen", "stiehlt", "stahl", "gestohlen"]
+  },
+  {
+    "PL": "rosnąć",
+    "ENG": "rise, mount",
+    "verbs": ["steigen", "steigt", "stieg", "gestiegen"]
+  },
+  {
+    "PL": "umierać",
+    "ENG": "die",
+    "verbs": ["sterben", "stirbt", "starb", "gestorben"]
+  },
+  {
+    "PL": "śmierdzieć",
+    "ENG": "stink",
+    "verbs": ["stinken", "stinkt", "stank", "gestunken"]
+  },
+  {
+    "PL": "pchnąć, kopnąć",
+    "ENG": "push, kick",
+    "verbs": ["stoßen", "stößt", "stieß", "gestoßen"]
+  },
+  {
+    "PL": "kłócić się, scierać (starcie)",
+    "ENG": "quarrel, clash",
+    "verbs": ["streiten", "streitet", "stritt", "gestritten"]
+  },
+  {
+    "PL": "nosić",
+    "ENG": "carry, wear",
+    "verbs": ["tragen", "trägt", "trug", "getragen"]
+  },
+  {
+    "PL": "spotykać",
+    "ENG": "meet",
+    "verbs": ["treffen", "trifft", "traf", "getroffen"]
+  },
+  {
+    "PL": "pędzić, gnać",
+    "ENG": "force, drive, urge, drift",
+    "verbs": ["treiben", "treibt", "trieb", "getrieben"]
+  },
+  {
+    "PL": "podejść, nadepnąć",
+    "ENG": "step, go",
+    "verbs": ["treten", "tritt", "trat", "getreten"]
+  },
+  {
+    "PL": "pić",
+    "ENG": "drink",
+    "verbs": ["trinken", "trinkt", "trank", "getrunken"]
+  },
+  {
+    "PL": "robić, czynić",
+    "ENG": "do",
+    "verbs": ["tun", "tut", "tat", "getan"]
+  },
+  {
+    "PL": "chować, ukrywać",
+    "ENG": "hide, conceal",
+    "verbs": ["verbergen", "verbirgt", "verbarg", "verborgen"]
+  },
+  {
+    "PL": "psuć, gnić",
+    "ENG": "spoil, ruin",
+    "verbs": ["verderben", "verdirbt", "verdarb", "verdorben"]
+  },
+  {
+    "PL": "zapominać",
+    "ENG": "forget",
+    "verbs": ["vergessen", "vergisst", "vergaß", "vergessen"]
+  },
+  {
+    "PL": "opuszczać",
+    "ENG": "leave (eg a place/person)",
+    "verbs": ["verlassen", "verlässt", "verließ", "verlassen"]
+  },
+  {
+    "PL": "gubić, tracić",
+    "ENG": "lose",
+    "verbs": ["verlieren", "verliert", "verlor", "verloren"]
+  },
+  {
+    "PL": "unikać",
+    "ENG": "avoid",
+    "verbs": ["vermeiden", "vermeidet", "vermied", "vermieden"]
+  },
+  {
+    "PL": "znikać",
+    "ENG": "disappear",
+    "verbs": ["verschwinden", "verschwindet", "verschwand", "verschwunden"]
+  },
+  {
+    "PL": "wybaczać",
+    "ENG": "pardon, excuse",
+    "verbs": ["verzeihen", "verzeiht", "verzieh", "verziehen"]
+  },
+  {
+    "PL": "rosnąć",
+    "ENG": "grow (by itself)",
+    "verbs": ["wachsen", "wächst", "wuchs", "gewachsen"]
+  },
+  {
+    "PL": "myć, prać",
+    "ENG": "wash",
+    "verbs": ["waschen", "wäscht", "wusch", "gewaschen"]
+  },
+  {
+    "PL": "obracać, zawracać",
+    "ENG": "turn",
+    "verbs": ["wenden", "wendet", "wandte", "gewandt"]
+  },
+  {
+    "PL": "reklamować",
+    "ENG": "advertise, push",
+    "verbs": ["werben", "wirbt", "warb", "geworben"]
+  },
+  {
+    "PL": "stać się, zostać",
+    "ENG": "become, turn out",
+    "verbs": ["werden", "wird", "wurde", "geworden"]
+  },
+  {
+    "PL": "rzucać",
+    "ENG": "throw",
+    "verbs": ["werfen", "wirft", "warf", "geworfen"]
+  },
+  {
+    "PL": "ważyć",
+    "ENG": "weigh",
+    "verbs": ["wiegen", "wiegt", "wog", "gewogen"]
+  },
+  {
+    "PL": "wiedzieć",
+    "ENG": "know (a fact)",
+    "verbs": ["wissen", "weiß", "wusste", "gewusst"]
+  },
+  {
+    "PL": "chcieć",
+    "ENG": "want",
+    "verbs": ["wollen", "will", "wollte", "gewollt"]
+  },
+  {
+    "PL": "ciągnąć",
+    "ENG": "pull",
+    "verbs": ["ziehen", "zieht", "zog", "gezogen"]
+  },
+  {
+    "PL": "zmuszać",
+    "ENG": "compel, force",
+    "verbs": ["zwingen", "zwingt", "zwang", "gezwungen"]
   }
 ]

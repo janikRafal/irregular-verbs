@@ -17,9 +17,11 @@ const displayVerb = function () {
     document.querySelectorAll('.input__active');
 
   translationInput.value = germanVerbs[currentIndex].PL;
-  restInputs[0].value = germanVerbs[currentIndex].verbs[0];
-  restInputs[1].value = germanVerbs[currentIndex].verbs[1];
-  restInputs[2].value = germanVerbs[currentIndex].verbs[2];
+  restInputs[0].focus();
+  // restInputs[0].value = germanVerbs[currentIndex].verbs[0];
+  // restInputs[1].value = germanVerbs[currentIndex].verbs[1];
+  // restInputs[2].value = germanVerbs[currentIndex].verbs[2];
+  // restInputs[3].value = germanVerbs[currentIndex].verbs[3];
 };
 
 const createInputs = function (verbIndex) {
@@ -30,6 +32,7 @@ const createInputs = function (verbIndex) {
         type="text"
         class="form-control text-light border border-dark rounded input__active"
         style="background-color: #424242"
+        placeholder="Tłumaczenie"
         disabled
       />
     </div>
@@ -38,6 +41,7 @@ const createInputs = function (verbIndex) {
         type="text"
         class="form-control text-light border border-dark rounded input__active"
         style="background-color: #424242"
+        placeholder="Infinitive"
       />
     </div>
     <div class="col p-1">
@@ -45,6 +49,7 @@ const createInputs = function (verbIndex) {
         type="text"
         class="form-control text-light border border-dark rounded input__active"
         style="background-color: #424242"
+        placeholder="Present"
       />
     </div>
     <div class="col p-1">
@@ -52,13 +57,22 @@ const createInputs = function (verbIndex) {
         type="text"
         class="form-control text-light border border-dark rounded input__active"
         style="background-color: #424242"
+        placeholder="Imperfekt"
       />
     </div>
+    <div class="col p-1">
+    <input
+      type="text"
+      class="form-control text-light border border-dark rounded input__active"
+      style="background-color: #424242"
+      placeholder="Perfekt"
+    />
+  </div>
     <div class="col-12 p-1">
       <span
         class="d-flex align-items-center justify-content-center help-block border border-danger rounded mb-3 p-2 text-light d-none hint__active"
         style="background-color: #424242"
-        >Błędna odpowiedź. Odmiana czasownika: ${germanVerbs[verbIndex].verbs[0]}, ${germanVerbs[verbIndex].verbs[1]}, ${germanVerbs[verbIndex].verbs[2]}</span
+        >Błędna odpowiedź. Odmiana czasownika: ${germanVerbs[verbIndex].verbs[0]}, ${germanVerbs[verbIndex].verbs[1]}, ${germanVerbs[verbIndex].verbs[2]}, ${germanVerbs[verbIndex].verbs[3]}</span
       >
     </div>
   </div>
@@ -97,7 +111,7 @@ const verbsCounter = document.querySelector('.verbs__counter');
 const inputsContainer = document.querySelector('.inputs__container');
 const checkBtn = document.querySelector('.btn__check');
 
-const randomOrder = randomUnique(germanVerbs.length, germanVerbs.length);
+// const randomOrder = randomUnique(germanVerbs.length, germanVerbs.length);
 let currentIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
